@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase - Online Shopping</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Heroicons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold text-indigo-600">ShopEase</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Home</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Shop</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">About</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Contact</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button><i data-feather="shopping-cart"></i></button>
+        <button><i data-feather="user"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-600 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Welcome to ShopEase</h2>
+      <p class="text-lg mb-6">Your one-stop shop for all things trendy and essential.</p>
+      <a href="#" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Start Shopping</a>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12">Featured Products</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!-- Product Card -->
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition">
+          <img src="https://via.placeholder.com/300" alt="Product" class="rounded-xl mb-4">
+          <h4 class="font-semibold text-lg">Stylish Shoes</h4>
+          <p class="text-sm text-gray-500">Comfortable and trendy footwear.</p>
+          <div class="mt-2 font-bold text-indigo-600">$49.99</div>
+          <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+        </div>
+        <!-- Repeat for other products -->
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition">
+          <img src="https://via.placeholder.com/300" alt="Product" class="rounded-xl mb-4">
+          <h4 class="font-semibold text-lg">Elegant Watch</h4>
+          <p class="text-sm text-gray-500">Classic and modern wristwear.</p>
+          <div class="mt-2 font-bold text-indigo-600">$89.99</div>
+          <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition">
+          <img src="https://via.placeholder.com/300" alt="Product" class="rounded-xl mb-4">
+          <h4 class="font-semibold text-lg">Smartphone</h4>
+          <p class="text-sm text-gray-500">Latest technology in your hands.</p>
+          <div class="mt-2 font-bold text-indigo-600">$699.99</div>
+          <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition">
+          <img src="https://via.placeholder.com/300" alt="Product" class="rounded-xl mb-4">
+          <h4 class="font-semibold text-lg">Wireless Headphones</h4>
+          <p class="text-sm text-gray-500">Noise-canceling over-ear comfort.</p>
+          <div class="mt-2 font-bold text-indigo-600">$129.99</div>
+          <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-8">
+    <div class="container mx-auto text-center">
+      <p class="mb-4">&copy; 2025 ShopEase. All rights reserved.</p>
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+        <a href="#" class="hover:text-white">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>
